@@ -1,13 +1,14 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/** Test ThreadCheckArray class */ 
 public class TestThreadCheckArray {
+
 	public static void main(String[] args) {
 		try (Scanner input = new Scanner(System.in)) {
 			Thread thread1, thread2;
 			System.out.println("Enter array size");
 			int num = input.nextInt();
-//			int [] array = new int[num];
 			ArrayList<Integer> array = new ArrayList<Integer>(num);
 			System.out.println("Enter numbers for array");
 
